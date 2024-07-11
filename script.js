@@ -16,12 +16,12 @@ function getHumanChoice(){
 }
 
 
-
+//function for playing a game of x rounds and then declaring a winner
 function playGame(){
     //these keep track of scores of both players
     let humanScore = 0;
     let computerScore = 0;
-
+    //function for playing one round of rps
     function playRound(humanChoice, computerChoice){
         const humanSelects = humanChoice.toLowerCase();
         const compSelects = computerChoice;
@@ -62,11 +62,9 @@ function playGame(){
             }
         }
     }
-    for(let i = 0; i < 5; i++){
-        const humanSelection = getHumanChoice();
-        const computerSelection = getComputerChoice();
-        playRound(humanSelection, computerSelection);
-    }
+        
+
+    //code that gives final score and winner
     console.log('Your Score: '+ humanScore);
     console.log('Computer\'s Score: '+ computerScore);
     if(humanScore>computerScore){
@@ -79,3 +77,14 @@ function playGame(){
 
 }
 playGame();
+
+//creating buttons for all three options for human's choice
+const rockBtn = document.createElement("button");
+rockBtn.textContent = "Rock";
+
+const paperBtn = document.createElement("button");
+paperBtn.textContent = "Paper";
+
+const scissorsBtn = document.createElement("button");
+scissorsBtn.textContent = "Scissors";
+
