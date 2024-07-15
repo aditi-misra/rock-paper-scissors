@@ -5,7 +5,7 @@
     //function that gets computer's choice 
 function getComputerChoice(){
     let choice = '';
-    let num = parseInt(Math.random()*1000);
+    let num = parseInt(Math.random()*10);
     if(num%2===0){
         choice = 'rock';
     } else if(num%3===0){
