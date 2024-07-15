@@ -9,11 +9,14 @@ h1{
     justify-content: center;
     align-items: center;
     font-size: 72px;
+    font-family: "Nothing You Could Do", cursive;
 }
 button{
     padding: 32px;
     border-radius: 10px;
     margin: 50px;
+    font-family: "Special Elite";
+    background-color: #6495ed;
 }
 
 .results{
@@ -22,10 +25,15 @@ button{
     justify-content: center;
     align-items: center;
     gap: 50px;
+    font-family: "Caveat Brush";
 }
 .scores{
     display: flex;
     justify-content: center;
     align-items: center;
     gap: 50px;
+}
+
+body{
+    background-color: #a9cce3;
 }
