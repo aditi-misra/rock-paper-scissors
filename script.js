@@ -43,7 +43,7 @@ let finalResult = document.querySelector("#finalResult");
                 roundResult.textContent = "It's a tie! Both chose Paper";
                 return;
             }
-            else if(compSelects==='Scissor'){
+            else if(compSelects==='scissors'){
                 roundResult.textContent = "You lose! Scissor beats Paper";
                 computerScore++;
             } else{
