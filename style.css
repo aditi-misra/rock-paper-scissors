@@ -1,0 +1,31 @@
+.choices{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 50px;
+}
+h1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 72px;
+}
+button{
+    padding: 32px;
+    border-radius: 10px;
+    margin: 50px;
+}
+
+.results{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+}
+.scores{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+}
